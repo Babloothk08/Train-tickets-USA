@@ -1,77 +1,132 @@
 {
-  "NYP_BOS": [
-    {
-      "id": "NE-173",
-      "train_name": "Northeast Regional 173",
-      "operator": "Amtrak",
-      "type": "Regional",
-      "depart": "08:15",
-      "arrive": "11:50",
-      "duration": "3h 35m",
-      "duration_minutes": 215,
-      "price": { "standard": 49, "business": 89 },
-      "availability": { "standard": 18, "business": 6 },
-      "stops": ["NYP", "New Haven", "Providence", "BOS"]
-    }
-  ],
-  "WAS_PHL": [
-    {
-      "id": "REG-87",
-      "train_name": "Regional 87",
-      "operator": "Amtrak",
-      "type": "Regional",
-      "depart": "07:10",
-      "arrive": "09:03",
-      "duration": "1h 53m",
-      "duration_minutes": 113,
-      "price": { "standard": 39, "business": 70 },
-      "availability": { "standard": 23, "business": 8 },
-      "stops": ["WAS", "Baltimore", "Wilmington", "PHL"]
-    }
-  ],
-  "LAX_SAN": [
-    {
-      "id": "PS-564",
-      "train_name": "Pacific Surfliner 564",
-      "operator": "Amtrak",
-      "type": "Regional Scenic",
-      "depart": "08:25",
-      "arrive": "11:05",
-      "duration": "2h 40m",
-      "duration_minutes": 160,
-      "price": { "standard": 35, "business": 60 },
-      "availability": { "standard": 30, "business": 12 },
-      "stops": ["LAX", "Anaheim", "Irvine", "SAN"]
-    }
-  ],
-  "SFC_SAC": [
-    {
-      "id": "CC-532",
-      "train_name": "Capitol Corridor 532",
-      "operator": "Amtrak",
-      "type": "Intercity",
-      "depart": "09:10",
-      "arrive": "11:03",
-      "duration": "1h 53m",
-      "duration_minutes": 113,
-      "price": { "standard": 29, "business": 50 },
-      "availability": { "standard": 22, "business": 10 },
-      "stops": ["SFC", "Richmond", "Fairfield", "SAC"]
-    }
-  ],
-  "SEA_PDX": [
-    {
-      "id": "CAS-503",
-      "train_name": "Amtrak Cascades 503",
-      "operator": "Amtrak",
-      "type": "Scenic",
-      "depart": "08:45",
-      "arrive": "12:05",
-      "duration": "3h 20m",
-      "duration_minutes": 200,
-      "price": { "standard": 42, "business": 68 },
-      "availability": { "standard": 17, "business": 6 },
-      "stops": ["SEA", "Tacoma", "Olympia", "PDX"]
-    }
-  ]
+    "NYP_BOS": [
+        {
+            "id": "NE-173",
+            "train_name": "Northeast Regional 173",
+            "operator": "Amtrak",
+            "type": "Regional",
+            "depart": "08:15",
+            "arrive": "11:50",
+            "duration": "3h 35m",
+            "duration_minutes": 215,
+            "price": {
+                "standard": 49,
+                "business": 89
+            },
+            "availability": {
+                "standard": 18,
+                "business": 6
+            },
+            "stops": [
+                "NYP",
+                "New Haven",
+                "Providence",
+                "BOS"
+            ]
+        }
+    ],
+    "WAS_PHL": [
+        {
+            "id": "REG-87",
+            "train_name": "Regional 87",
+            "operator": "Amtrak",
+            "type": "Regional",
+            "depart": "07:10",
+            "arrive": "09:03",
+            "duration": "1h 53m",
+            "duration_minutes": 113,
+            "price": {
+                "standard": 39,
+                "business": 70
+            },
+            "availability": {
+                "standard": 23,
+                "business": 8
+            },
+            "stops": [
+                "WAS",
+                "Baltimore",
+                "Wilmington",
+                "PHL"
+            ]
+        }
+    ],
+    "LAX_SAN": [
+        {
+            "id": "PS-564",
+            "train_name": "Pacific Surfliner 564",
+            "operator": "Amtrak",
+            "type": "Regional Scenic",
+            "depart": "08:25",
+            "arrive": "11:05",
+            "duration": "2h 40m",
+            "duration_minutes": 160,
+            "price": {
+                "standard": 35,
+                "business": 60
+            },
+            "availability": {
+                "standard": 30,
+                "business": 12
+            },
+            "stops": [
+                "LAX",
+                "Anaheim",
+                "Irvine",
+                "SAN"
+            ]
+        }
+    ],
+    "SFC_SAC": [
+        {
+            "id": "CC-532",
+            "train_name": "Capitol Corridor 532",
+            "operator": "Amtrak",
+            "type": "Intercity",
+            "depart": "09:10",
+            "arrive": "11:03",
+            "duration": "1h 53m",
+            "duration_minutes": 113,
+            "price": {
+                "standard": 29,
+                "business": 50
+            },
+            "availability": {
+                "standard": 22,
+                "business": 10
+            },
+            "stops": [
+                "SFC",
+                "Richmond",
+                "Fairfield",
+                "SAC"
+            ]
+        }
+    ],
+    "SEA_PDX": [
+        {
+            "id": "CAS-503",
+            "train_name": "Amtrak Cascades 503",
+            "operator": "Amtrak",
+            "type": "Scenic",
+            "depart": "08:45",
+            "arrive": "12:05",
+            "duration": "3h 20m",
+            "duration_minutes": 200,
+            "price": {
+                "standard": 42,
+                "business": 68
+            },
+            "availability": {
+                "standard": 17,
+                "business": 6
+            },
+            "stops": [
+                "SEA",
+                "Tacoma",
+                "Olympia",
+                "PDX"
+            ]
+        }
+    ]
 }

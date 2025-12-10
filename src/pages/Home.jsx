@@ -59,9 +59,9 @@ export default function Home() {
           <SearchBox />
         </motion.div>
       </div>
-      {/* <PopularRoute />
+      <PopularRoute />
       <Whyus/>
-      <Testimonials /> */}
+      <Testimonials />
       <div className="my-12 grid md:grid-cols-3 gap-6">
         <FeatureCard title="Popular routes" desc="Quick access to commonly traveled journeys." />
         <FeatureCard title="Secure payments" desc="PCI-compliant integrations like Stripe or Razorpay." />
