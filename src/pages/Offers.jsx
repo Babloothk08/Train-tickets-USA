@@ -25,7 +25,7 @@ export default function Offers() {
             desc: "Enjoy unbeatable deals during peak holiday seasons. Limited-time festive discounts on all popular routes.",
             tag: "UP TO 40% OFF",
             icon: Sparkles,
-            img: "https://i.postimg.cc/3xYzsryk/deals.png"
+            img: "https://i.postimg.cc/4xmtn9VR/Gemini_Generated_Image_kcvstkkcvstkkcvs.png"
         },
         {
             title: "Exclusive Coupon Codes",
@@ -41,13 +41,13 @@ export default function Offers() {
         <div className="bg-white font-sans overflow-hidden">
 
             {/* === HERO SECTION === */}
-            <section className="relative h-[80vh] flex items-center justify-center overflow-hidden">
+            <section className="relative h-screen flex items-center justify-center overflow-hidden">
                 <div className="absolute inset-0">
                     <motion.img
                         initial={{ scale: 1.2 }}
                         animate={{ scale: 1 }}
                         transition={{ duration: 10 }}
-                        src="https://images.unsplash.com/photo-1511735111819-9a3f7709049c?q=80&w=2184&auto=format&fit=crop"
+                        src="https://i.postimg.cc/dtBPD7vB/Gemini-Generated-Image-oxhyveoxhyveoxhy.png"
                         className="w-full h-full object-cover"
                     />
                     <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-white"></div>

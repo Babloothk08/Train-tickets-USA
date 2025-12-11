@@ -6,7 +6,7 @@ export default function HeroSlider() {
 
     const heroSlides = [
         {
-            bg: 'https://i.postimg.cc/TP7kgLbY/quenten_janssen_8n_D9ZTu_TWtg_unsplash.jpg',
+            bg: 'https://i.postimg.cc/CMcs1YXT/Gemini-Generated-Image-z4firmz4firmz4fi.png',
             title: 'Premium Routes Now Open',
             subtitle: 'Discover our luxury Acela service with enhanced amenities and unparalleled comfort.',
             badge: 'Exclusive Offers'
