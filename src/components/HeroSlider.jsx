@@ -12,13 +12,13 @@ export default function HeroSlider() {
             badge: 'Exclusive Offers'
         },
         {
-            bg: 'https://i.postimg.cc/Pqw47tsj/home-2.png',
+            bg: 'https://i.postimg.cc/fTgGD7mn/Home_Page_Banner_2.jpg',
             title: 'Travel Smarter with Amtrek Reservation ',
             subtitle: 'Experience comfort, convenience, and sustainable travel across the nation.',
             badge: 'New: Mobile Boarding'
         },
         {
-            bg: 'https://i.postimg.cc/4499yYzW/rhamely_u_SIu_Nyj_Rioc_unsplash.jpg',
+            bg: 'https://i.postimg.cc/3x4PRyF0/Home_Page_Banner_3.jpg',
             title: 'Earn Rewards Every Trip',
             subtitle: 'Join Amtrek Reservation  Guest Rewards today and start saving on your future adventures.',
             badge: 'Loyalty Program'
