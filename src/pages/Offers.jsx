@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { BadgePercent, GraduationCap, Gift, Users, Sparkles } from "lucide-react";
+import { BadgePercent, GraduationCap, Gift, Users, Sparkles, Link } from "lucide-react";
 
 export default function Offers() {
     const offers = [
@@ -145,9 +145,11 @@ export default function Offers() {
                         <p className="text-blue-100 text-lg mb-10 max-w-2xl mx-auto">
                             Book now and enjoy exclusive discounts on your next train journey.
                         </p>
+                        <Link to="/contact">
                         <button className="bg-white text-blue-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-50 hover:scale-105 transition-all shadow-xl">
                             Book Tickets Now
                         </button>
+                        </Link>
                     </div>
                 </div>
             </section>

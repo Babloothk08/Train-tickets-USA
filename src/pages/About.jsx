@@ -272,7 +272,7 @@ export default function About() {
                             Where will you go next?
                         </p>
                         <button
-                            onClick={() => navigate('/dashboard')}
+                            onClick={() => navigate('/contact')}
                             className="bg-white text-blue-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-50 hover:scale-105 transition-all shadow-xl"
                         >
                             Book Your Ticket
