@@ -75,7 +75,7 @@ export default function BookNowContact() {
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-lg text-slate-900">Email Support</h4>
-                                    <p className="text-slate-500">support@Amtrek Reservation traintickets.com</p>
+                                    <p className="text-slate-500">support@trainticketsusa.com</p>
                                 </div>
                             </div>
 

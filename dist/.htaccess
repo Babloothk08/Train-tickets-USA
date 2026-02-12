@@ -5,7 +5,7 @@
   # Force HTTPS and WWW (canonical redirect)
   RewriteCond %{HTTPS} off [OR]
   RewriteCond %{HTTP_HOST} !^www\. [NC]
-  RewriteRule ^ https://www.amtraktraintickets.com%{REQUEST_URI} [L,R=301]
+  RewriteRule ^ https://www.trainticketsusa.com%{REQUEST_URI} [L,R=301]
 
   # Don’t rewrite existing files or directories
   RewriteCond %{REQUEST_FILENAME} -f [OR]

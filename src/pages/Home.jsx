@@ -75,7 +75,7 @@ export default function Home() {
       <section className="bg-gradient-to-r from-slate-900 to-slate-800 text-white py-20">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h3 className="text-4xl font-bold mb-4">Ready to Start Your Journey?</h3>
-          <p className="text-xl text-slate-300 mb-8">Join millions of travelers who choose Amtrek Reservation  every year</p>
+          <p className="text-xl text-slate-300 mb-8">Join millions of travelers who choose Train Tickets USA Reaservation every year</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/contact">
             <button className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full transition-colors">
