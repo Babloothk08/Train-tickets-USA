@@ -7,23 +7,23 @@ export default function Testimonials() {
 
     const testimonials = [
         { 
-            name: 'Sarah Johnson', 
+            name: '— Jessica M., Boston', 
             role: 'Frequent Traveler', 
-            text: 'Booking with Amtrek Reservation  has never been easier. The mobile app is fantastic and the board experience was seamless.', 
+            text: '“I needed a last-minute ticket from New York to Boston and found a great option in just a few minutes. The booking process was simple and the confirmation came instantly. Super convenient!”', 
             rating: 5,
             image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=150&auto=format&fit=crop'
         },
         { 
-            name: 'Michael Chen', 
+            name: '— Daniel R., Chicago', 
             role: 'Business Executive', 
-            text: 'Acela Express saves me valuable time. The Wi-Fi is reliable and the service is impeccable. Highly recommended.', 
+            text: '“I like how easy it is to compare train schedules and prices in one place. It saved me time and helped me pick the best departure for my trip. Definitely using it again.”', 
             rating: 5,
             image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=150&auto=format&fit=crop'
         },
         { 
-            name: 'Emily Rodriguez', 
+            name: 'Amanda T., Washington, DC', 
             role: 'Student', 
-            text: 'Great discounts for students and the seats are so comfortable. It makes traveling back to campus a joy.', 
+            text: '“Booking online was smooth and stress-free. Everything was clear, from selecting the route to making the payment. It made planning my trip much easier.”', 
             rating: 5,
             image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=150&auto=format&fit=crop'
         }
@@ -62,13 +62,12 @@ export default function Testimonials() {
                 {/* Header */}
                 <div className="text-center mb-16">
                     <span className="text-blue-400 font-semibold tracking-widest text-xs uppercase mb-3 block">
-                        Passenger Stories
+                      PASSENGER REVIEWS
                     </span>
-                    <h3 className="text-4xl md:text-5xl font-bold text-white mb-4">
-                        Trusted by Millions
-                    </h3>
+                    
                     <p className="text-slate-300 text-lg max-w-2xl mx-auto">
-                        Discover why travelers across the nation choose Amtrek Reservation  for their journey.
+                        See why travelers choose TrainTicketsUSA to search, compare, and book train tickets online. Our easy booking process, secure payments, and convenient travel options help make every journey simple and stress-free.
+
                     </p>
                 </div>
 

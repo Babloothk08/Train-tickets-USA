@@ -65,14 +65,14 @@ export default function Offers() {
                     </div>
 
                     <h1 className="text-6xl md:text-7xl font-bold leading-tight">
-                        Save More on
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-200 via-white to-blue-200">
-                            {" "}Your Journey
-                        </span>
+                       All Train Routes in the USA
+
+                       
                     </h1>
 
                     <p className="text-lg text-blue-100 max-w-xl mx-auto mt-4">
-                        Discover exclusive deals, limited-time sales, and passenger-only discounts.
+                        Explore popular and frequently traveled train routes across the United States. Compare destinations, discover major railway connections, and plan your journey easily with our simple <b>train ticket booking USA</b> platform.
+
                     </p>
                 </motion.div>
             </section>

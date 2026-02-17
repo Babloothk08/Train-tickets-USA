@@ -7,29 +7,29 @@ export default function WhyUs() {
             icon: Leaf,
             color: 'text-emerald-600',
             bg: 'bg-emerald-50',
-            title: '83% Lower Carbon',
-            desc: 'Travel sustainably. Our trains generate significantly fewer emissions per passenger than driving or flying.'
+            title: ' Eco-Friendly Travel Options',
+            desc: 'Choose train travel as a more sustainable way to travel across the USA, helping reduce environmental impact compared to other transportation options.'
         },
         {
             icon: Shield,
             color: 'text-blue-600',
             bg: 'bg-blue-50',
-            title: 'Safe & Secure',
-            desc: 'Your safety is our priority. We utilize industry-leading protocols and 24/7 monitoring across all routes.'
+            title: 'Safe & Secure Booking',
+            desc: 'Book train tickets with confidence using secure payment processing and protected online transactions.'
         },
         {
             icon: Award,
             color: 'text-amber-600',
             bg: 'bg-amber-50',
-            title: 'Best in Class',
-            desc: 'Award-winning service designed around you, featuring spacious seating and premium onboard amenities.'
+            title: 'Best Travel Options in One Place',
+            desc: 'Compare train routes, schedules, and ticket options to find the most convenient journey for your travel needs.'
         },
         {
             icon: Clock,
             color: 'text-indigo-600',
             bg: 'bg-indigo-50',
-            title: 'Reliable Schedules',
-            desc: 'With a 94% on-time performance, we respect your time and ensure you reach your destination as planned.'
+            title: 'Reliable Train Schedules',
+            desc: 'Access updated train schedules and availability to plan your journey with confidence and convenience.'
         }
     ];
 
@@ -45,15 +45,15 @@ export default function WhyUs() {
 
                 {/* Header Section */}
                 <div className="text-center max-w-3xl mx-auto mb-20">
-                    <span className="text-blue-600 font-semibold tracking-wider text-sm uppercase mb-3 block">
+                    {/* <span className="text-blue-600 font-semibold tracking-wider text-sm uppercase mb-3 block">
                         The Train Tickets USA  Difference
-                    </span>
+                    </span> */}
                     <h3 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-                        Why millions choose <span className="text-blue-700">Train Tickets USA </span>
+                       Why Millions Choose TrainTicketsUSA for Train Reservations
                     </h3>
                     <p className="text-slate-500 text-lg md:text-xl leading-relaxed">
-                        We don't just move people; we connect communities. Experience the comfort,
-                        sustainability, and reliability of the modern railway.
+                       By offering travelers the ability to search, compare, and reserve train tickets across America, we have simplified the process of booking train travel. With our easy-to-use online booking system, you will find everything you need in order to securely reserve your train seat with confidence and peace of mind knowing that you made the best possible choice when reserving your train seat.
+
                     </p>
                 </div>
 

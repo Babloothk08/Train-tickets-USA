@@ -67,16 +67,14 @@ export default function About() {
                         <div className="h-px w-12 bg-white/50"></div>
                     </motion.div>
 
-                    <h1 className="text-6xl md:text-8xl font-bold text-white mb-8 tracking-tight leading-none">
-                        America’s <br />
-                        <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-300 via-white to-blue-300 bg-300% animate-gradient">
-                            Moving Soul.
-                        </span>
+                    <h1 className="text-4xl md:text-5xl font-bold text-white mb-8 tracking-tight leading-none">
+                        About Train Tickets USA – Online Train Ticket Booking Platform
+
                     </h1>
 
                     <p className="text-lg md:text-xl text-slate-200 max-w-2xl mx-auto leading-relaxed font-light">
-                        We don't just transport passengers. We weave together the fabric of a nation,
-                        connecting 46 states with the rhythm of the rails.
+                        An easy-to-use, secure online reservation system for booking train tickets throughout the USA.
+
                     </p>
                 </motion.div>
 
@@ -121,77 +119,79 @@ export default function About() {
                 </motion.div>
             </section>
 
-
-            {/* --- 3. OUR LEGACY (Timeline Animation) --- */}
-            <section className="py-20 max-w-7xl mx-auto px-6">
-                <div className="flex flex-col md:flex-row gap-16">
-                    {/* Left Sticky Header */}
-                    <div className="md:w-1/3">
-                        <div className="sticky top-32">
-                            <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-                                Our Legacy
-                            </h2>
-
-                            {/* Summary Text */}
-                            <p className="text-slate-500 text-lg leading-relaxed mb-4 transition-all duration-300">
-                                {expanded ? longText : shortText}
-                            </p>
-
-                            {/* Read More Button */}
-                            <button
-                                onClick={() => setExpanded(!expanded)}
-                                className="group flex items-center gap-2 text-blue-600 font-semibold hover:gap-4 transition-all"
-                            >
-                                {expanded ? "Read less" : "Read full history"}
-                                <ArrowRight className={`w-4 h-4 transition-transform ${expanded ? "rotate-180" : ""}`} />
-                            </button>
+            <section className=''>
+                <h2 className='text-center text-5xl '>Our Company & What We Do</h2>
+                <div className='max-w-7xl py-6 px-3 mx-auto'>
+                    <div className='grid grid-cols-1 md:grid-cols-2'>
+                        <div className='order-1 md:order-1 relative border rounded-2xl group overflow-hidden transition '>
+                            <img src="/images/about Our Company & What We Do.jpg.jpeg" alt="" className='h-full w-full object-cover group-hover:scale-110' />
                         </div>
-                    </div>
+                        <div className='order-2 md:order-2 ms-3'>
+                            <p className='text-xl text-justify  py-2'>
+                                At <b className='font-bold'>TrainTickets USA</b>, we work hard to simplify the process of booking train tickets. Our primary motivation is to make it simple, easy, and secure for modern travelers to quickly reserve their train tickets.
+                            </p>
+                            <p className='text-xl text-justify  py-2'>
+                                Using TrainTicketsUSA, you can find train <b className='font-bold'>routes all over the USA</b>, compare departure dates, times, and seats; search for current availability; and complete secure online reservations for your train tickets in just a few simple steps. Our simple-to-use system allows individuals, families, and businesses to easily make reservations and purchase train tickets.
 
-                    {/* Right Timeline */}
-                    <div className="md:w-2/3 space-y-24 relative pl-8 md:pl-0">
-                        {/* Timeline Vertical Line */}
-                        <div className="absolute left-0 top-0 bottom-0 w-px bg-slate-200 md:hidden"></div>
-
-                        {[
-                            { year: '1971', title: 'The Beginning', desc: 'Amtrek Reservation  begins service on May 1st with 184 trains serving 43 states.', img: 'https://i.postimg.cc/5tgpnbbR/licensed-image.jpg' },
-                            { year: '2000', title: 'High Speed Era', desc: 'Acela Express launches, introducing high-speed rail to the Northeast Corridor.', img: 'https://i.postimg.cc/T1fDSW0b/Gemini_Generated_Image_it38viit38viit38.png' },
-                            { year: '2024', title: 'The Future', desc: 'New fleet of sustainable, AI-assisted trains rolls out across the nation.', img: 'https://i.postimg.cc/0jPw3Jnm/Gemini_Generated_Image_rmubnyrmubnyrmub.png' }
-                        ].map((item, idx) => (
-                            <motion.div
-                                key={idx}
-                                initial={{ opacity: 0, y: 50 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                viewport={{ once: true, margin: "-100px" }}
-                                transition={{ duration: 0.6 }}
-                                className="relative group"
-                            >
-                                {/* Mobile Dot */}
-                                <div className="absolute -left-[37px] top-2 w-4 h-4 bg-blue-600 rounded-full border-4 border-white shadow-md md:hidden"></div>
-
-                                <div className="flex flex-col md:flex-row gap-8 items-start">
-                                    <div className="md:w-1/3">
-                                        <span className="text-6xl font-black text-slate-600 absolute -z-10 -top-8 -left-4 md:static md:text-blue-700">
-                                            {item.year}
-                                        </span>
-                                        <h3 className="text-2xl font-bold text-slate-900 mt-2">{item.title}</h3>
-                                        <p className="text-slate-600 mt-2">{item.desc}</p>
-                                    </div>
-                                    <div className="md:w-2/3 overflow-hidden rounded-2xl">
-                                        <motion.img
-                                            whileHover={{ scale: 1.05 }}
-                                            transition={{ duration: 0.7 }}
-                                            src={item.img}
-                                            alt={item.title}
-                                            className="w-full h-64 object-cover"
-                                        />
-                                    </div>
-                                </div>
-                            </motion.div>
-                        ))}
+                            </p>
+                            <p className='text-xl text-justify  py-2'>
+                                We worked hard to provide travelers with clear and reliable information needed when planning train travel. That is why we have built our booking process with transparency, an easy-to-use checkout system, and simple access to trip details, so travelers have everything they need to make an informed decision before making a final reservation for their train travel.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
+            <section className='my-5'>
+                <h2 className='text-center text-5xl '>Moving America, One Journey at a Time</h2>
+                <div className='max-w-7xl py-6 px-3 mx-auto'>
+                    <div className='grid grid-cols-1 md:grid-cols-2'>
+                        <div className='order-2 md:order-2 relative border rounded-2xl group overflow-hidden transition '>
+                            <img src="/images/Moving America, One Journey at a Time.jpg.jpeg" alt="" className='h-full w-full object-cover group-hover:scale-110' />
+                        </div>
+                        <div className='order-1 md:order-1 me-3'>
+                            <p className='text-xl text-justify  py-2'>
+                                At Train Tickets USA, we think that when people use the rail system, they interact with each other instead of just being about getting from point A to B. The platform enables users to easily and quickly locate train schedules (and purchase train tickets) throughout America.
+                            </p>
+                            <p className='text-xl text-justify  py-2'>
+                                With a focus on customer experience, we combine advanced technology with a streamlined reservation process, allowing for complete access to information about different ways of traveling (locating/booking your trip), as well as making it easier to purchase and pay for tickets.
+                            </p>
+                            <p className='text-xl text-justify  py-2'>
+                                Train Tickets USA is committed to providing our customers with the best experience possible when making a train reservation. Each step through the entire process will provide travelers with comfort, security, and clarity—enabling them to travel confidently.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-10 py-5">
+                    <div className="border rounded-2xl">
+                        <div className="relative group  rounded-2xl overflow-hidden transition">
+                            <img src="/images/mission image.jpg.jpeg" className='h-full w-full object-cover group-hover:scale-110' alt="" />
+                        </div>
+                        <div className='p-4 sm:p-5 md:p-6'>
+                            <h3 className='text-center text-lg sm:text-xl md:text-2xl'>Our Mission</h3>
+                            <p className='text-sm sm:text-base text-justify text-gray-600'>Our objective is to create a simple, quick, and easily accessible method for purchasing train tickets in the USA. To achieve this, we will develop and operate an efficient website (that is, a website accessible from anywhere) where users can easily search for/train routes/schedule/plan their online train ticket reservations in order to enable users to experience an easy and stress-free way to complete their rail journey within the United States.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="border rounded-2xl">
+                       <div className="relative group  rounded-2xl overflow-hidden transition">
+                            <img src="/images/vision.jpeg" className='h-full w-full object-cover group-hover:scale-110' alt="" />
+                        </div>
+                        <div className='p-4 sm:p-5 md:p-6'>
+                            <h3 className='text-center text-lg sm:text-xl md:text-2xl'>Our Vision</h3>
+                            <p className='text-sm sm:text-base text-justify text-gray-600'>Our ambition is to become a credible website supporting customers in the purchase of train tickets online and therefore enabling them to make more informed decisions in their travel planning; we are committed to providing reliable, efficient, and user-friendly rail travel solutions in an effort to make train travel the preferred mode of transportation for the modern traveler.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+            {/* --- 3. OUR LEGACY (Timeline Animation) --- */}
+          
 
 
 
@@ -221,7 +221,7 @@ export default function About() {
 
 
             {/* --- 5. MEET THE LEADERSHIP (Minimal) --- */}
-            <section className="py-24 max-w-7xl mx-auto px-6">
+            {/* <section className="py-24 max-w-7xl mx-auto px-6">
                 <div className="flex flex-col md:flex-row justify-between items-end mb-16">
                     <div>
                         <span className="text-blue-600 font-semibold tracking-wider text-sm uppercase mb-2 block">Our Leadership</span>
@@ -250,7 +250,7 @@ export default function About() {
                         </div>
                     ))}
                 </div>
-            </section>
+            </section> */}
 
 
             {/* --- 6. CTA BANNER --- */}
@@ -258,18 +258,18 @@ export default function About() {
                 <div className="max-w-7xl mx-auto relative rounded-[3rem] overflow-hidden">
                     <div className="absolute inset-0">
                         <img
-                            src="https://images.unsplash.com/photo-1465447142348-e9952c393450?q=80&w=1974&auto=format&fit=crop"
-                            className="w-full h-full object-cover"
+                            src="/images/Train.jpg"
+                            className="h-full w-full object-cover"
                             alt="Cityscape"
                         />
-                        <div className="absolute inset-0 bg-blue-900/90 mix-blend-multiply"></div>
+                        {/* <div className="absolute inset-0 bg-blue-900/90 mix-blend-multiply"></div> */}
                     </div>
 
                     <div className="relative z-10 p-16 md:p-24 text-center">
-                        <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Your Next Adventure Awaits</h2>
+                        <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Your Next Train Journey Starts Here</h2>
                         <p className="text-blue-100 text-lg mb-10 max-w-2xl mx-auto">
-                            The tracks are clear, the seats are comfortable, and the views are breathtaking.
-                            Where will you go next?
+                           Discover comfortable, convenient, and affordable train ticket booking in the USA. Search routes, compare schedules, and plan your journey with ease through our simple online train reservation platform.
+
                         </p>
                         <button
                             onClick={() => navigate('/contact')}

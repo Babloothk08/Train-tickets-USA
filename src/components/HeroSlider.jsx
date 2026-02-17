@@ -7,21 +7,21 @@ export default function HeroSlider() {
     const heroSlides = [
         {
             bg: 'https://i.postimg.cc/CMcs1YXT/Gemini-Generated-Image-z4firmz4firmz4fi.png',
-            title: 'Premium Routes Now Open',
-            subtitle: 'Discover our luxury Acela service with enhanced amenities and unparalleled comfort.',
-            badge: 'Exclusive Offers'
+            title: 'Book Train Tickets Across the USA Easily & Securely.',
+            subtitle: 'Find affordable train tickets and compare lines, times, and prices. One easy place to book tickets, pay securely, and get dependable help.',
+            badge: 'Book Tickets Now • Secure checkout • Customer support available '
         },
         {
             bg: 'https://i.postimg.cc/fTgGD7mn/Home_Page_Banner_2.jpg',
-            title: 'Travel Smarter with Amtrek Reservation ',
-            subtitle: 'Experience comfort, convenience, and sustainable travel across the nation.',
-            badge: 'New: Mobile Boarding'
+            title: 'Find Cheap Train Tickets for Popular USA Routes',
+            subtitle: 'Find fantastic deals on trains between major cities, including New York City, Washington, D.C., Boston, Chicago, Los Angeles, and more.',
+            badge: 'Explore Routes: Save more when you book early and compare available travel options.'
         },
         {
             bg: 'https://i.postimg.cc/3x4PRyF0/Home_Page_Banner_3.jpg',
-            title: 'Earn Rewards Every Trip',
-            subtitle: 'Join Amtrek Reservation  Guest Rewards today and start saving on your future adventures.',
-            badge: 'Loyalty Program'
+            title: 'Comfortable & Convenient Train Travel in the USA',
+            subtitle: 'Travel comfortably with spacious seating, scenic routes, and flexible schedules. Book your next train journey with confidence through our easy booking platform.',
+            badge: 'CTA Button: View Train Routes'
         }
     ];
 
@@ -84,13 +84,13 @@ export default function HeroSlider() {
                             >
                                 <div className="space-y-6">
                                     {/* Badge */}
-                                    <span className={`inline-block px-4 py-1.5 bg-white/10 backdrop-blur-md border border-white/20 rounded-full text-sm font-medium tracking-wide text-white transition-all duration-700 delay-100 ${isActive ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+                                    <span className={`inline-block px-4 py-1.5 my-8 bg-white/10 backdrop-blur-md border border-white/20 rounded-full text-sm font-medium tracking-wide text-white transition-all duration-700 delay-100 ${isActive ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
                                         }`}>
                                         {slide.badge}
                                     </span>
 
                                     {/* Title */}
-                                    <h1 className={`text-5xl md:text-7xl font-bold leading-tight text-white transition-all duration-700 delay-200 ${isActive ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+                                    <h1 className={`text-3xl md:text-5xl font-bold leading-tight text-white transition-all duration-700 delay-200 ${isActive ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
                                         }`}>
                                         {slide.title}
                                     </h1>

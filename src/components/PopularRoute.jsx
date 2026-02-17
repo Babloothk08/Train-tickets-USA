@@ -61,12 +61,12 @@ export default function PopularRoute() {
                 {/* Header Section */}
                 <div className="flex flex-col md:flex-row items-end justify-between mb-12 gap-6">
                     <div>
-                        <span className="text-blue-600 font-semibold tracking-wider text-sm uppercase mb-2 block">
+                        {/* <span className="text-blue-600 font-semibold tracking-wider text-sm uppercase mb-2 block">
                             Discover
-                        </span>
-                        <h3 className="text-4xl font-bold text-slate-900 mb-2">Popular Routes</h3>
+                        </span> */}
+                        <h3 className="text-4xl font-bold text-slate-900 mb-2">Popular Train Routes Across the USA</h3>
                         <p className="text-slate-500 max-w-md text-lg">
-                            Explore the most traveled railway journeys favored by our community this season.
+                           You can find train routes to take you between cities in the US that are in high demand for travelers. Compare different schedules, length of trips, and ticket fares to book inexpensive train tickets online for your trip.
                         </p>
                     </div>
                     
