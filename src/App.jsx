@@ -42,13 +42,13 @@ export default function App() {
   AOS.refresh();
 }, []);
 
-
+//vishal
   // Simulate data fetching
-  useEffect(() => {
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 3000); // Loader hides after 3 seconds
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setIsLoading(false);
+  //   }, 3000); // Loader hides after 3 seconds
+  // }, []);
   return (
     <div className=" flex flex-col bg-linear-to-b from-sky-50 to-white text-slate-800">
       {isLoading ? (
