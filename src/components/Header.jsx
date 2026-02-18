@@ -23,6 +23,9 @@ export default function Header() {
     { name: 'About', path: '/about' },
     { name: 'Train Routes', path: '/All-train-routes' },
     { name: 'Deals', path: '/deals&offers' },
+    {
+      name:"Contact Us", path:"/contact-us"
+    }
   ]
 
   return (

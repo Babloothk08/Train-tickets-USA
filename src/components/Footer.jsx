@@ -1,6 +1,6 @@
 import React from 'react'
 import { MapPin, Mail, Phone, Copyright, Send } from 'lucide-react'
-import { FaWhatsapp,FaInstagram,FaFacebook,FaTwitter } from "react-icons/fa";
+import { FaWhatsapp,FaInstagram,FaFacebook,FaTwitter, FaPinterest, FaYoutube, FaLinkedin } from "react-icons/fa";
 import { NavLink } from 'react-router'
 
 export default function Footer() {
@@ -18,7 +18,7 @@ export default function Footer() {
                 </div>
                 <div className='absolute top-0  left-15'>
                   <h5 className='text-xl text-white ps-2'>Address:-</h5>
-                  <NavLink className='text-sm text-white ps-2 hover:underline hover:decoration-2 hover:decoration-blue-600 hover:text-red-300 transition'>support@gmail.com</NavLink>
+                  <NavLink className='text-sm text-white ps-2 hover:underline hover:decoration-2 hover:decoration-blue-600 hover:text-red-300 transition'>17662 Irvine Blvd, Suite 9 Tustin, CA 92780</NavLink>
                 </div>
               </div>
               <div className='relative mt-6'>
@@ -28,7 +28,7 @@ export default function Footer() {
                 </div>
                 <div className='absolute top-0  left-15'>
                   <h5 className='text-xl text-white ps-2'>Phone:-</h5>
-                  <NavLink className='text-sm text-white ps-2 hover:underline hover:decoration-2 hover:decoration-blue-600 hover:text-red-300 transition'>9155014125</NavLink>
+                  <NavLink to={'tel:8663061219'} className='text-sm text-white ps-2 hover:underline hover:decoration-2 hover:decoration-blue-600 hover:text-red-300 transition'>8663061219</NavLink>
                 </div>
               </div>
               <div className='relative mt-6'>
@@ -48,7 +48,7 @@ export default function Footer() {
                 </div>
                 <div className='absolute top-0  left-15'>
                   <h5 className='text-xl text-white ps-2 '>Whatsapp:-</h5>
-                  <NavLink className='text-sm text-white ps-2 hover:underline hover:decoration-2 hover:decoration-blue-600 hover:text-red-300 transition'>9155014125</NavLink>
+                  <NavLink to={'https://wa.me/8663061219'} className='text-sm text-white ps-2 hover:underline hover:decoration-2 hover:decoration-blue-600 hover:text-red-300 transition'>8663061219</NavLink>
                 </div>
               </div>
 
@@ -90,22 +90,26 @@ export default function Footer() {
               </form>
             </div>
             <div className='max-w-7xl py-5 mx-auto'>
-              <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
+              <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4'>
                 <div className='w-12 h-12 rounded-full bg-white flex items-center justify-center'>
-                 <NavLink> <FaInstagram className='text-blue-500 text-2xl'  /></NavLink>
+                 <NavLink to={'https://www.instagram.com/trainticketusa/'}> <FaInstagram className='text-blue-500 text-2xl'  /></NavLink>
 
                 </div>
                 <div className='w-12 h-12 rounded-full bg-white flex items-center justify-center'>
                  
-                  <NavLink> <FaFacebook className='text-blue-500 text-2xl'  /></NavLink>
+                  <NavLink to={'https://www.facebook.com/trainticketsusa/'}> <FaFacebook className='text-blue-500 text-2xl'  /></NavLink>
 
                 </div>
                 <div className='w-12 h-12 rounded-full bg-white flex items-center justify-center'>
-                  <NavLink><FaWhatsapp className='text-blue-500 text-2xl' /></NavLink>
+                  <NavLink to={'https://in.pinterest.com/TrainTicketsUSA/'}><FaPinterest className='text-blue-500 text-2xl' /></NavLink>
 
                 </div>
                 <div className='w-12 h-12 rounded-full bg-white flex items-center justify-center'>
-                 <NavLink> <FaTwitter className='text-blue-500 text-2xl'  /></NavLink>
+                 <NavLink to={'https://www.youtube.com/@TrainTicketUSA'}> <FaYoutube className='text-blue-500 text-2xl'  /></NavLink>
+
+                </div>
+                 <div className='w-12 h-12 rounded-full bg-white flex items-center justify-center'>
+                 <NavLink to={'https://www.linkedin.com/company/us-railway-booking/'}> <FaLinkedin className='text-blue-500 text-2xl'  /></NavLink>
 
                 </div>
               </div>

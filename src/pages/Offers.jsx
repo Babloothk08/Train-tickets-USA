@@ -4,33 +4,33 @@ import { BadgePercent, GraduationCap, Gift, Users, Sparkles, Link } from "lucide
 export default function Offers() {
     const offers = [
         {
-            title: "Student Discount",
-            subtitle: "Save 20% on all domestic & international routes",
-            desc: "Valid for students aged 18–25 with a valid student ID. Perfect for holidays, semester breaks, and weekend trips.",
+            title: " Student & Senior Train Ticket Discounts ",
+            subtitle: "Check Eligibility →",
+            desc: "Eligible travelers can enjoy special savings on train ticket booking in the USA. Students and seniors can access reduced fares on selected routes, making rail travel more affordable and convenient.Save more on your next online train reservation with verified discount options.",
             tag: "20% OFF",
             icon: GraduationCap,
             img: "https://i.postimg.cc/qM89D6vw/studentoffer.png"
         },
         {
-            title: "Senior Savings",
-            subtitle: "Flat 30% off for passengers aged 60+",
-            desc: "Travel comfortably and affordably with our senior-exclusive discounts, available year-round.",
+            title: "Group & Family Train Travel Offers",
+            subtitle: "Plan Group Travel →",
+            desc: "Planning a trip with friends or family? Unlock special group train ticket discounts on selected routes. Enjoy flexible booking options and affordable fares for multiple passengers traveling together.Ideal for vacations, events, and family gatherings across the United States.",
             tag: "30% OFF",
             icon: Users,
             img: "https://i.postimg.cc/8zNx2kFg/senior.png"
         },
         {
-            title: "Seasonal Festive Offers",
-            subtitle: "Christmas, New Year & Summer Sale",
-            desc: "Enjoy unbeatable deals during peak holiday seasons. Limited-time festive discounts on all popular routes.",
+            title: "Seasonal Train Deals & Holiday Offers",
+            subtitle: " Explore Seasonal Deals →",
+            desc: " Save more on train tickets in the USA during Christmas, New Year, and summer travel seasons. Discover limited-time train ticket deals, holiday discounts, and special fares on popular train routes across the United States.",
             tag: "UP TO 40% OFF",
             icon: Sparkles,
             img: "https://i.postimg.cc/65RCHR6c/Banner-(2).jpg"
         },
         {
-            title: "Exclusive Coupon Codes",
-            subtitle: "Redeem and save instantly on checkout",
-            desc: "Use special coupon codes to get instant savings on your next booking. Applicable on all train classes.",
+            title: "Exclusive Train Ticket Coupon Codes",
+            subtitle: " Get Coupon Codes →",
+            desc: " Apply verified coupon codes at checkout and save instantly on online train ticket booking. Enjoy additional discounts on selected routes and travel classes.",
             tag: "SAVE NOW",
             icon: Gift,
             img: "https://i.postimg.cc/yYFwp3N8/dicount.png"
@@ -117,12 +117,11 @@ export default function Offers() {
                                     <h3 className="text-2xl font-bold text-slate-900">{item.title}</h3>
                                 </div>
 
-                                <p className="text-blue-700 font-semibold mb-2">{item.subtitle}</p>
+                                 <button className="mt-6 inline-flex items-center gap-2 text-blue-600 font-semibold hover:gap-4 cursor-pointer transition-all">{item.subtitle}</button>
                                 <p className="text-slate-600">{item.desc}</p>
 
-                                <button className="mt-6 inline-flex items-center gap-2 text-blue-600 font-semibold hover:gap-4 transition-all">
-                                    View Details →
-                                </button>
+                               
+                            
                             </div>
                         </motion.div>
                     ))}

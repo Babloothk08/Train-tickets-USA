@@ -3,6 +3,11 @@ import { Routes, Route } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+
+
 
 import Home from './pages/Home'
 import Results from './pages/Results'
@@ -22,9 +27,21 @@ import HelpCenter from './pages/HelpCenter'
 import TermsAndCondition from './pages/TermsAndCondition'
 import RefundPolicy from './pages/RefundPolicy'
 import Disclamer from './pages/Disclamer'
+import ContactUs from './pages/ContactUs'
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
+ useEffect(() => {
+  AOS.init({
+    duration: 800,
+    once: true,
+    easing: "ease-out-cubic",
+  });
+
+  // dynamic content ho to refresh
+  AOS.refresh();
+}, []);
+
 
   // Simulate data fetching
   useEffect(() => {
@@ -56,6 +73,7 @@ export default function App() {
                 <Route path="/refund-policy" element={<PageWrapper><RefundPolicy /></PageWrapper>} />
                 <Route path="/help-center" element={<PageWrapper><HelpCenter /></PageWrapper>} />
                 <Route path="/terms-conditions" element={<PageWrapper><TermsAndCondition /></PageWrapper>} />
+                 <Route path="/contact-us" element={<PageWrapper><ContactUs /></PageWrapper>} />
                  <Route path="/disclaimer" element={<PageWrapper><Disclamer /></PageWrapper>} />
                 <Route path="/contact" element={<PageWrapper><BookNowContact /></PageWrapper>} />
               </Routes>
