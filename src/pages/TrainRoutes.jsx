@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { ArrowRight, Clock, IndianRupee, TrainIcon } from 'lucide-react';
 import { internationalTrains } from "../data/internationalTrains";
 import { regiontrain } from '../data/regiontrain'
-import { NavLink } from 'react-router';
+import { NavLink } from 'react-router-dom';
 
 export default function TrainRoutes() {
     console.log(regiontrain)
@@ -26,7 +26,7 @@ export default function TrainRoutes() {
             <div className='max-w-7xl mx-auto py-5 px-4'>
                 <h2 className='text-center text-xl sm:text-2xl md:text-3xl'>All Train Routes in the USA</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-4">
-                    <div className='order-2 md:order-2' data-aos="zoom-out-right">
+                    <div className='order-2 md:order-2' >
                         <p className='text-justify text-lg sm:text-xl'>Find details on popular train routes through the USA and see how to book a train ticket to/from any city in the United States. We help make it easy for travelers to search for major train routes and other travel options between cities in the USA.
                         </p>
                         <p className='text-justify text-lg sm:text-xl'>Traveling on Amtrak can be one of the most enjoyable and convenient modes of transportation for seeing the USA. Our complete list of Amtrak railroads will help you find a connection between two cities, compare popular corridors, and make an easy and fast online reservation.
@@ -36,8 +36,7 @@ export default function TrainRoutes() {
                         </p>
                     </div>
                     <div className='order-1 md:order-1 rounded-2xl relative border group overflow-hidden transition'>
-                        <img src="/images/All Train Routes in the USA 1.jpg.jpeg" data-aos="fade-up"
-                            data-aos-duration="3000" className='h-full w-full group-hover:scale-110' alt="" />
+                        <img src="/images/All Train Routes in the USA 1.jpg.jpeg" className='h-full w-full group-hover:scale-110' alt="" />
                     </div>
                 </div>
             </div>

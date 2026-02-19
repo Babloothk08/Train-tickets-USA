@@ -3,8 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import AOS from "aos";
-import "aos/dist/aos.css"
+
 import Home from './pages/Home'
 import Results from './pages/Results'
 import SeatSelector from './pages/SeatSelector'
@@ -27,24 +26,15 @@ import ContactUs from './pages/ContactUs'
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
- useEffect(() => {
-  AOS.init({
-    duration: 800,
-    once: true,
-    easing: "ease-out-cubic",
-  });
 
-  // dynamic content ho to refresh
-  AOS.refresh();
-}, []);
 
 //vishal
   // Simulate data fetching
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setIsLoading(false);
-  //   }, 3000); // Loader hides after 3 seconds
-  // }, []);
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 3000); // Loader hides after 3 seconds
+  }, []);
   return (
     <div className=" flex flex-col bg-linear-to-b from-sky-50 to-white text-slate-800">
       {isLoading ? (
