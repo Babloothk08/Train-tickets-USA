@@ -7,6 +7,11 @@ export default function Disclamer() {
     return (
         <>
             <section>
+                  <Helmet>
+                    <title>Disclaimer | Train Availability Information & Policies</title>
+                    <meta name="description" content="Read our disclaimer regarding train availability, ticket information accuracy, third-party services, and website usage limitations." />
+                   <link rel="canonical"href="https://www.trainticketsusa.com/disclaimer" />
+                </Helmet>
                 <div className='max-w-7xl mx-auto py-4 '>
                     <div className='w-full flex  bg-blue-200 text-black p-5 text-xl'>
                         <NavLink to={"/"} ><HomeIcon size={28} className=' hover:text-red-600 transition-all duration-300' /></NavLink>

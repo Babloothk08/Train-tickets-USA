@@ -13,6 +13,11 @@ export default function TrainRoutes() {
     return (
         <>
             <section>
+                <Helmet>
+                    <title>Best Train Routes in USA | Explore All Train Routes</title>
+                    <meta name="description" content="Discover the best train routes in USA. Explore popular train journeys, compare ticket options, and plan your train travel across the country." />
+                    <link rel="canonical" href="http://www.trainticketsusa.com/all-train-routes" />
+                </Helmet>
                 <div className="w-full h-full ">
                     <div className=' overflow-hidden relative'>
                         <img src="/images/All Train Routes in the USA banner.jpg.jpeg" alt="" className='w-full h-full object-cover' />

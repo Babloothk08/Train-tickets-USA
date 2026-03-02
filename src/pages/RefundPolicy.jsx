@@ -7,6 +7,11 @@ export default function RefundPolicy() {
     return (
         <>
             <section>
+                <Helmet>
+                    <title>Train Ticket Refund Policy USA | Refund Information</title>
+                    <meta name="description" content="Read our train ticket refund policy USA travelers should know. Understand refund eligibility, processing time, and cancellation procedures." />
+                    <link rel="canonical" href="https://www.trainticketsusa.com/refund-policy" />
+                </Helmet>
                 <div className='max-w-7xl mx-auto py-4 '>
                     <div className='w-full flex  bg-blue-200 text-black p-5 text-xl'>
                         <NavLink to={"/"} ><HomeIcon size={28} className=' hover:text-red-600 transition-all duration-300' /></NavLink>

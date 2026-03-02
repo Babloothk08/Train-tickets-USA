@@ -39,6 +39,11 @@ export default function Offers() {
 
     return (
         <div className="bg-white font-sans overflow-hidden">
+             <Helmet>
+                    <title>Train Ticket Deals USA | Cheap Train Travel Offers</title>
+                    <meta name="description" content="Find the latest train ticket deals USA travelers love. Save on family trips, holiday travel, and cheap train bookings across the country." />
+                   <link rel="canonical"href="http://www.trainticketsusa.com/train-booking-deals " />
+                </Helmet>
 
             {/* === HERO SECTION === */}
             <section className="relative h-screen flex items-center justify-center overflow-hidden">

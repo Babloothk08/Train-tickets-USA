@@ -6,6 +6,11 @@ export default function TermsAndCondition() {
   return (
     <>
       <section>
+          <Helmet>
+                    <title>Train Ticket Cancellation Policy USA | Terms & Conditions</title>
+                    <meta name="description" content="Review our train ticket cancellation policy USA travelers must follow. Learn about booking rules, reservation time limits, and ticket conditions." />
+                   <link rel="canonical"href="https://www.trainticketsusa.com/terms-conditions" />
+                </Helmet>
         <div className='max-w-7xl mx-auto py-4 '>
           <div className='w-full flex  bg-blue-200 text-black p-5 text-xl'>
             <NavLink to={"/"} ><Home size={28} className=' hover:text-red-600 transition-all duration-300' /></NavLink>

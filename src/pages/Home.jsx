@@ -10,10 +10,16 @@ import Testimonials from '../components/Testimonials'
 import TrainSearchBar from '../components/TrainSearchBar'
 import { Link } from 'react-router-dom'
 import Faq from '../components/Faq'
-
+import { } from 'helmet'
 export default function Home() {
   return (
+
     <section className="">
+      <Helmet>
+        <title>Book Train Tickets in USA | Cheap & Easy Online Booking</title>
+        <meta name="description" content="Book train tickets in USA quickly and securely. Compare routes, check availability, and find cheap train tickets online with easy reservation options." />
+        <link rel="canonical" href="https://www.trainticketsusa.com" />
+      </Helmet>
       <HeroSlider />
       <div className='w-full bg-blue-50 opacity-100 h-auto py-5'>
         <div className='p-3 sm:p-4 md:p-5'>
@@ -31,13 +37,13 @@ export default function Home() {
       </div>
       <div className="max-w-7xl mx-auto px-4 py-10">
         <h2 className='text-2xl sm:text-3xl md:text-4xl mb-2 text-center '>A Faster and Smarter Way to Book Train Tickets
-            </h2>
+        </h2>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 p-4 md:p-5 sm:p-7'>
           <div className="order-2 md:order-1 relative group border rounded-xl transition overflow-hidden">
-            <img src="/images/A Faster and Smarter Way to Book Train Tickets.jpg.jpeg" alt=""  className='w-full h-full  group-hover:scale-110 transition duration-300 object-cover' />
+            <img src="/images/A Faster and Smarter Way to Book Train Tickets.jpg.jpeg" alt="" className='w-full h-full  group-hover:scale-110 transition duration-300 object-cover' />
           </div>
           <div className='order-1 sm:order-2'>
-            
+
             <ul className='list-decimal text-xl'>
               <li>
                 <h5 className='text-lg sm:text-xl md:text-2xl mb-2'> Instant Train Ticket Search with Smart Suggestions
@@ -76,7 +82,7 @@ export default function Home() {
                 </p>
               </li>
             </ul>
-           
+
           </div>
         </div>
       </div>
@@ -89,7 +95,7 @@ export default function Home() {
             Book in 60 seconds or less
           </div>
           <h2 className="text-5xl font-extrabold mb-6 leading-tight">
-          Search Train And Book_ {" "}
+            Search Train And Book_ {" "}
 
             <span className="bg-linear-to-r from-blue-600 to-blue-500 bg-clip-text text-transparent">
               ACROSS THE NORTHEAST & MORE

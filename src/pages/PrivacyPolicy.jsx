@@ -7,6 +7,11 @@ export default function PrivacyPolicy() {
   return (
     <>
       <section>
+          <Helmet>
+                    <title>Privacy Policy | Train Reservation Availability Information</title>
+                    <meta name="description" content="Read our Privacy Policy to understand how we collect, use, and protect your personal information when checking train reservation availability and booking tickets online." />
+                 <link rel="canonical"href="https://www.trainticketsusa.com/privacy-policy" />
+                </Helmet>
         <div className='max-w-7xl mx-auto py-4 '>
           <div className='w-full flex  bg-blue-200 text-black p-5 text-xl'>
             <NavLink to={"/"} ><HomeIcon size={28} className=' hover:text-red-600 transition-all duration-300' /></NavLink>

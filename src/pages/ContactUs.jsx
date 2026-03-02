@@ -6,6 +6,11 @@ export default function ContactUs() {
     return (
         <>
             <section>
+                 <Helmet>
+                    <title>Train Booking USA Support | Contact Us</title>
+                    <meta name="description" content="Need help with train booking USA services? Contact our support team for assistance with reservations, availability, and ticket inquiries." />
+                  <link rel="canonical"href="https://www.trainticketsusa.com/contact-us" />
+                </Helmet>
                 <div className="w-full h-full ">
                     <div className=' overflow-hidden relative'>
                         <img src="/images/contactus.jpg.jpeg" alt="" className='w-full h-full object-cover' />

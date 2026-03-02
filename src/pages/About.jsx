@@ -31,6 +31,11 @@ export default function About() {
 
     return (
         <div ref={containerRef} className="bg-white font-sans selection:bg-blue-100 selection:text-blue-900 overflow-x-hidden">
+            <Helmet>
+        <title>Train Ticket Booking Website USA | About Train Tickets USA</title>
+        <meta name="description" content="Learn about our train ticket booking website in USA. We help travelers book train tickets online easily, securely, and at affordable prices." />
+        <link rel="canonical" href="https://www.trainticketsusa.com/about-train-tickets-usa" />
+      </Helmet>
 
             {/* --- 1. CINEMATIC HERO SECTION --- */}
             <section className="relative h-screen flex items-center justify-center overflow-hidden">
