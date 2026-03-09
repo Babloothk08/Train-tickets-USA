@@ -105,7 +105,7 @@ export default function Footer() {
 
                 </div>
                 <div className='w-12 h-12 rounded-full bg-white flex items-center justify-center'>
-                 <NavLink to={'https://www.youtube.com/@TrainTicketUSA'}> <FaYoutube className='text-blue-500 text-2xl'  /></NavLink>
+                 <NavLink to={'https://www.youtube.com/@TrainTicketsUSA/'}> <FaYoutube className='text-blue-500 text-2xl'  /></NavLink>
 
                 </div>
                  <div className='w-12 h-12 rounded-full bg-white flex items-center justify-center'>
