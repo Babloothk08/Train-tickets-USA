@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ArrowRight, Clock, IndianRupee, TrainIcon } from 'lucide-react';
-import { internationalTrains } from "../data/internationalTrains";
+// import { internationalTrains } from "../data/internationalTrains";
 import { regiontrain } from '../data/regiontrain'
 import { NavLink } from 'react-router-dom';
 import { Helmet } from "react-helmet";

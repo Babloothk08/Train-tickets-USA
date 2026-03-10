@@ -42,7 +42,6 @@ export default function Home() {
         <link rel="canonical" href="https://www.trainticketsusa.com" />
         <script type="application/ld+json">
         {`
-        
 {
 "@context":"https://schema.org",
 "@graph":[
@@ -102,11 +101,9 @@ export default function Home() {
 }
 ]
 }
-
-        `}
-        </script>
+`}
+</script>
       </Helmet>
-      
       <HeroSlider />
       <div className='w-full bg-blue-50 opacity-100 h-auto py-5'>
         <div className='p-3 sm:p-4 md:p-5'>

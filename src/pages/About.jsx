@@ -1,23 +1,23 @@
-import { useRef, useState } from 'react';
+import { useRef } from 'react';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import { Map, Users, Globe, Award, ArrowRight, Train } from 'lucide-react';
 import { Helmet } from "react-helmet";
 import { useNavigate } from 'react-router-dom';
 import video from "../video/train video.mp4";
 export default function About() {
-    const [expanded, setExpanded] = useState(false);
+    // const [expanded, setExpanded] = useState(false);
 
-    const shortText =
-        "From our humble beginnings to a modern transportation giant, every decade has brought innovation to the American railway.";
+    // const shortText =
+    //     "From our humble beginnings to a modern transportation giant, every decade has brought innovation to the American railway.";
 
-    const longText = `
-    From our humble beginnings to becoming a modern transportation giant, our journey spans over a century of transformation.
-    Each decade brought groundbreaking innovations — from expanding long-distance connectivity to introducing high-speed trains,
-    building state-of-the-art rail infrastructure, adopting eco-friendly operations, and enhancing passenger experience through
-    world-class service standards. What started as a simple mode of transport is now an icon of reliability, comfort, and
-    technological advancement in the American transportation landscape.
-    Our legacy continues to inspire future generations as we redefine mobility for tomorrow.
-  `;
+//     const longText = `
+//     From our humble beginnings to becoming a modern transportation giant, our journey spans over a century of transformation.
+//     Each decade brought groundbreaking innovations — from expanding long-distance connectivity to introducing high-speed trains,
+//     building state-of-the-art rail infrastructure, adopting eco-friendly operations, and enhancing passenger experience through
+//     world-class service standards. What started as a simple mode of transport is now an icon of reliability, comfort, and
+//     technological advancement in the American transportation landscape.
+//     Our legacy continues to inspire future generations as we redefine mobility for tomorrow.
+//   `;
 
     const navigate = useNavigate();
     const containerRef = useRef(null);
