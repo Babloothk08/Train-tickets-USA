@@ -41,7 +41,7 @@ export default function Home() {
         <meta name="description" content="Book train tickets in USA quickly and securely. Compare routes, check availability, and find cheap train tickets online with easy reservation options." />
         <link rel="canonical" href="https://www.trainticketsusa.com" />
         <script type="application/ld+json">
-          {`
+        {`
         
 {
 "@context":"https://schema.org",
@@ -102,11 +102,10 @@ export default function Home() {
 }
 ]
 }
-
-        `}
-        </script>
+`}
+</script>
       </Helmet>
-
+      
       <HeroSlider />
       <div className='w-full bg-blue-50 opacity-100 h-auto py-5'>
         <div className='p-3 sm:p-4 md:p-5'>
